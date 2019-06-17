@@ -78,7 +78,7 @@ public class MobileAPI2 {
             capabilities.setCapability(MobileCapabilityType.DEVICE_NAME, deviceName);
             capabilities.setCapability(MobileCapabilityType.PLATFORM_NAME, "Android");
             capabilities.setCapability(MobileCapabilityType.PLATFORM_VERSION, version);
-            capabilities.setCapability(MobileCapabilityType.APP, "/Users/zann/eclipse-workspace/MobileAutomation/Generic/src/main/resources/td.apk");
+            capabilities.setCapability(MobileCapabilityType.APP, "/Users/winsensid/Documents/MobileAutomationPractice/Generic/src/main/resources/Online Shopping Buy sell and save with eBay_v5.32.1.0_apkpure.com.apk");
             appiumDriver = new AndroidDriver(new URL("http://localhost:4723/wd/hub"), capabilities);
 
         } else {
